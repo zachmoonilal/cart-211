@@ -1,0 +1,81 @@
+/* === CSS RESET === */
+* {
+ margin: 0; 
+ padding: 0; 
+ box-sizing: border-box;
+}
+
+
+
+body {
+    background-color: darkolivegreen;
+    font-family: fantasy;
+}
+
+nav, header, article {
+    
+
+    margin-bottom: 20px; 
+    border: solid 1px ;
+}
+
+/* === NAV INFO HERE === */
+
+nav {
+    background-color: burlywood;
+/*    text align allows the navigation center to move on the left, right center */
+/* text-align: center; */
+}
+
+a:link {
+    display:inline-block;
+    background-color: burlywood; 
+    color:darkgoldenrod; 
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 18px;
+/*    cpaitalizing the navigations */
+    text-transform: capitalize
+}
+
+a:visited {
+/*    change the color of the text and make it more noticeable for the visited link */
+    color: cornsilk; 
+}
+
+a:hover {
+    color:aliceblue
+}
+
+/* === HEADER INFO HERE === */
+
+header {
+    padding: 0 20px;
+}
+header h1 { 
+font-size: 52px;
+text-transform:uppercase
+}
+header h2 {
+    font-family: serif;
+    font-style: italic;
+    color:burlywood;
+}
+
+article {
+    padding: 0 20px;
+    text-transform: capitalize; 
+}
+
+article p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 24px;
+/*text-align: justify*/
+}
+
+footer {
+    padding: 0 20px;
+    font-style: italic;
+    font-family: fantasy
+}

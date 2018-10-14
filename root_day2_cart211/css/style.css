@@ -1,0 +1,13 @@
+/*CSS Document */
+
+body {
+    background-color: forestgreen;
+}
+
+header {
+    background-color:darkgreen;
+}
+
+header h1 {
+    color:#fff
+}
