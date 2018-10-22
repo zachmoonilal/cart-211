@@ -1,0 +1,91 @@
+/* CSS RESET*/ 
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,900');
+
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;  
+    
+}
+
+
+html, body {
+    
+  height: 100%;  
+}
+
+#s1 {
+   
+    width: 100%;
+    height: 100%; 
+    background: url(../images/bg2.jpg) no-repeat fixed center center;
+    background-size: cover; 
+    
+}
+
+#s1 hgroup {
+  
+    background: #fff; 
+    padding: 20px; 
+    width: 28%;
+    position: absolute; 
+    top: 40px; 
+    right: 40px;
+    
+}
+
+#s1 h2 { 
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100; 
+    font-size: 20px; 
+
+}
+
+#s1 h1 { 
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900; 
+    font-size: 7vmax;
+    line-height: 7vmax;
+    text-transform: uppercase;
+
+}
+
+#s2{
+    
+    background: cadetblue;
+    min-height: 30%; 
+    height: auto;
+    padding: 40px;
+    
+    
+}
+
+#s2 article { 
+
+column-count: 3; 
+
+}
+
+#s3 {
+   
+    width: 100%;
+    height: 100%; 
+    background: url(../images/bg1.jpg) no-repeat fixed center center;
+    background-size: cover; 
+    position: relative;
+    
+}
+
+#s3 article {
+  
+    background: #fff; 
+    padding: 20px; 
+    width: 28%;
+    position: absolute; 
+    bottom: 40px; 
+    left: 40px;
+    
+}
